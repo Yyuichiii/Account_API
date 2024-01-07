@@ -1,12 +1,8 @@
-from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.renderers import JSONRenderer
 from django.contrib.auth import authenticate,login
-from rest_framework import authentication, permissions,status
+from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
-from rest_framework.authentication import TokenAuthentication
-from .models import MyUser
 from .serializers import UserRegistrationSerializers,LoginSerializers,UserProfileSerializer,PasswordChangeSerializer,emailserializer,password_reset_serializers
 from rest_framework_simplejwt.tokens import RefreshToken
 
