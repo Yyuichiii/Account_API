@@ -140,6 +140,8 @@ REST_FRAMEWORK = {
     
 }
 
+PASSWORD_RESET_TIMEOUT=900    #900 sec=15minutes
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:9000",
