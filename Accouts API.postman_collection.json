@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"rtkdmfde@gmail.com\",\r\n    \"name\":\"Ritik\",\r\n    \"password\":\"123456\",\r\n    \"password2\":\"123456\",\r\n    \"tc\":\"True\"\r\n\r\n\r\n}",
+					"raw": "{\r\n    \"email\":\"user@gmail.com\",\r\n    \"name\":\"User\",\r\n    \"password\":\"123456\",\r\n    \"password2\":\"123456\",\r\n    \"tc\":\"True\"\r\n\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -58,7 +58,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"ritik@example.com\",\r\n    \"name\":\"Ritik\",\r\n    \"password\":\"123456\",\r\n    \"password2\":\"123456\",\r\n    \"tc\":\"True\"\r\n\r\n\r\n}",
+							"raw": "{\r\n    \"email\":\"user@example.com\",\r\n    \"name\":\"user\",\r\n    \"password\":\"123456\",\r\n    \"password2\":\"123456\",\r\n    \"tc\":\"True\"\r\n\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -146,7 +146,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"rtkmehra785@gmail.com\",    \r\n    \"password\":\"123456\"\r\n    \r\n\r\n\r\n}",
+					"raw": "{\r\n    \"email\":\"user@gmail.com\",    \r\n    \"password\":\"123456\"\r\n    \r\n\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -185,7 +185,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"ritik@example.com\",    \r\n    \"password\":\"123456\"\r\n    \r\n\r\n\r\n}",
+							"raw": "{\r\n    \"email\":\"user@example.com\",    \r\n    \"password\":\"123456\"\r\n    \r\n\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -371,7 +371,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"email\": \"ritik@example.com\",\n    \"name\": \"Ritik\",\n    \"tc\": true,\n    \"created_at\": \"2024-01-07T15:29:04.294226+05:30\"\n}"
+					"body": "{\n    \"email\": \"user@example.com\",\n    \"name\": \"user\",\n    \"tc\": true,\n    \"created_at\": \"2024-01-07T15:29:04.294226+05:30\"\n}"
 				}
 			]
 		},
@@ -432,7 +432,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"rtkmehra785@gmail.com\"\r\n}",
+					"raw": "{\r\n    \"email\":\"user@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -471,7 +471,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"ritik@example.com\"\r\n}",
+							"raw": "{\r\n    \"email\":\"user@example.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
