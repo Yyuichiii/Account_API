@@ -34,10 +34,10 @@ Account API is a Django-based RESTful API endpoint for user authentication and r
 
 ## API Endpoints
 
-- **Register User**: `POST` `account/register/` 
-- **Login User**: `POST` `account/login/`
-- **User Profile**: `GET` `account/profile/`
-- **Change Password**: `POST` `account/password/`
+- **Register User**: `POST` `api/user/register/` 
+- **Login User**: `POST` `api/user/login/`
+- **User Profile**: `GET` `api/user/profile/`
+- **Change Password**: `POST` `api/user/password/`
 
 ## Screenshots
 
