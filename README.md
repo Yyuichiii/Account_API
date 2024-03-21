@@ -6,12 +6,12 @@ Account API is a Django-based RESTful API endpoint for user authentication and r
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Yyuichiii/AccountAPI.git
+   git clone https://github.com/Yyuichiii/Account_API.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd AccountAPI
+   cd Account_API
    ```
 
 3. Install dependencies using pip:
@@ -30,7 +30,7 @@ Account API is a Django-based RESTful API endpoint for user authentication and r
    ```bash
    python manage.py runserver
    ```
-3. Obtain an access token by sending a POST request to the /login/ endpoint with valid credentials. The response will include      an access token.
+3. Obtain an access token by sending a POST request to the /login/ endpoint with valid credentials. The response will include an access token.
 
 ## API Endpoints
 
