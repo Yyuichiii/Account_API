@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "18efb26a-64b7-4ae0-b7af-e025c18c1714",
+		"_postman_id": "6065f0ac-3799-450a-bb04-9ff4faa55d07",
 		"name": "Accouts API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "32175619"
+		"_exporter_id": "33358121"
 	},
 	"item": [
 		{
@@ -271,8 +271,35 @@
 		{
 			"name": "Profile",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExMDI2Njk1LCJpYXQiOjE3MTEwMjYzOTUsImp0aSI6IjE5NWEzYWNhMTljZjQ3ODA5NGIxODkzMjExOTg4OWJiIiwidXNlcl9pZCI6MTZ9.tevj_k7w6fEvFNK22oRsj5OvRp2CAmlyvjwlXCqLMP4",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/user/profile/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user",
+						"profile",
+						""
+					]
+				}
 			},
 			"response": [
 				{
@@ -351,8 +378,44 @@
 		{
 			"name": "Password Change",
 			"request": {
-				"method": "GET",
-				"header": []
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExMDI2Njk1LCJpYXQiOjE3MTEwMjYzOTUsImp0aSI6IjE5NWEzYWNhMTljZjQ3ODA5NGIxODkzMjExOTg4OWJiIiwidXNlcl9pZCI6MTZ9.tevj_k7w6fEvFNK22oRsj5OvRp2CAmlyvjwlXCqLMP4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password1\":\"123456\",\n    \"password2\":\"123456\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/user/password/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user",
+						"password",
+						""
+					]
+				}
 			},
 			"response": []
 		},
